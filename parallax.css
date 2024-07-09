@@ -1,0 +1,52 @@
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1{
+  background-image:url(https://images.unsplash.com/photo-1598091383021-15ddea10925d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  min-height: 100%;
+}
+.pimg2{
+  background-image:url(https://images.unsplash.com/photo-1632231065530-f5fd55c62846?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  min-height: 500px;
+}
+.pimg3{
+  background-image:url(https://img.traveltriangle.com/attachments/pictures/1110695/original/Gulmarg_is_a_hill_station.jpg);
+  min-height: 500px;
+}
+.pimg1,.pimg2,.pimg3{
+  position:relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ptext{
+  position: absolute;
+  top:50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.textbg{
+  background: rgb(78, 73, 73,0.5);
+  color: white;
+  padding: 20px;
+}
+.section{
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light{
+  background-color: #f4f4f4;
+  color: grey;
+}
